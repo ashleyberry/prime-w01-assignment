@@ -1,11 +1,81 @@
 /* Give your page a fun background color */
+body {
+  background: #042f66;
+  width: 100%;
+  margin: 0;
+}
 
 /* Make the header and footer a different color from the background */
+header {
+  background: linear-gradient(-90deg, #c96dc3, #0660a1);
+  height: 100px;
+  width: auto;
+}
+
+footer {
+  background: linear-gradient(-90deg, #0660a1, #c96dc3);
+  height: 150px;
+}
 
 /* Align the h1 containing your name in the center of the header*/
+h1 {
+  text-align: center;
+  color: #cce7e8;
+  opacity: 0.80;
+  text-shadow: 1px 1px 5px black;
+  font-family: Copperplate;
+  font-size: 50px;
+  padding-top: 20px;
+  margin-top: 0px;
+}
 
 /* Make your p tag a different color and italic */
+p {
+  color: #F0F8FF;
+  font-style: italic;
+  text-shadow: 1px 1px 4px black;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 60px;
+}
 
 /* Put a border around your image */
+img {
+  border:1px solid #000000;
+  background-color:#79ADD0;
+  margin-top: 40px;
+  padding:1px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Change the font-family of your list */
+ul {
+  font-family:Palatino;
+  list-style: none;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+li {
+    background: url("https://i.ibb.co/KsWWVPt/Starfish-free-icon-3-1.png") left top no-repeat;
+    padding-left: 50px;
+}
+
+.list {
+  display: block;
+  font-size: 20px;
+  line-height: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  background-color: white;
+  color: black;
+  opacity: 0.80;
+}
